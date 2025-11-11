@@ -67,8 +67,7 @@
 
 
 #m-p {
-  padding-top: 6%;
-  padding-bottom: 6%;
+  padding-bottom: 2%;
 }
 
 /* Phone/Mobile override for .h-64 (set to 41rem on small screens) */
@@ -88,6 +87,11 @@
     padding-right: 58%;
     white-space: nowrap;
     font-size: x-large;
+}
+
+#m-p {
+  padding-top: 6%;
+  padding-bottom: 6%;
 }
 
 } 
