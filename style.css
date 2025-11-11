@@ -45,7 +45,7 @@
 
 /* Phone/Mobile override for .h-64 (set to 41rem on small screens) */
 @media (max-width: 768px) {
-  #p-img {
+  .p-img {
     height: 37rem;
     margin-top: 10%;
   }
