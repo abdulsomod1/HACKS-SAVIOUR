@@ -27,3 +27,7 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #ea580c;
 }
+
+.m-w {
+  width: 40px;
+}
