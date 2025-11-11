@@ -62,3 +62,12 @@
 #white {
   color: white;
 }
+
+.bg-white {
+  background-color: rgb(249 115 22 / var(--tw-bg-opacity, 1));
+}
+
+.f-img {
+    max-width: 271px;
+    margin-left: 32%;
+}
