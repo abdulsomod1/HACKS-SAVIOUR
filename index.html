@@ -14,16 +14,18 @@
 <body class="font-sans text-gray-800">
   <!-- Navigation -->
   <nav class="bg-white shadow-md fixed w-full z-50">
-    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+    <div id="m-p" class="container mx-auto px-4 py-3 flex justify-between items-center">
       <div class="flex items-center space-x-2">
         <img class="m-w" src="./icon/hacks-saviour.png" alt="Logo">
-        <span class="text-xl font-bold">HACKS SAVIOUR</span>
+        <span id="h-s-e" class="text-xl font-bold">HACKS SAVIOUR</span>
       </div>
 
       <!-- Desktop Menu -->
       <div class="hidden md:flex space-x-8">
         <a href="#home" class="hover:text-orange-500 transition">Home</a>
+        <a href="#about" class="hover:text-orange-500 transition">About Us</a>
         <a href="#services" class="hover:text-orange-500 transition">Services</a>
+        <a href="#reviews" class="hover:text-orange-500 transition">Reviews</a>
         <a href="#contact" class="hover:text-orange-500 transition">Contact Us</a>
       </div>
 
@@ -40,70 +42,10 @@
     <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
       <div class="flex flex-col space-y-3">
         <a href="#home" class="hover:text-orange-500 transition">Home</a>
-        <a href="#services" class="hover:text-orange-500 transition">Services</a>
-        <a href="#reviews" class="hover:text-orange-500 transition">Reviews</a>
-        <a href="#booking" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full transition text-center">Contact Us</a>
-      </div>
-    </div>
-  </nav>
-
-
-</html>
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Hacks Saviour</title>
-    <link rel="stylesheet" href="./style.css">
-
-  </head>
-    
-  <body>
-  <!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>>HACKS SAVIOUR</title>
-  <link rel="shortcut icon" href="./icon/Remove.bg.png" type="image/x-icon" />
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-
-<body class="font-sans text-gray-800">
-  <!-- Navigation -->
-  <nav class="bg-white shadow-md fixed w-full z-50">
-    <div class="container mx-auto px-4 py-3 flex justify-between items-center">
-      <div class="flex items-center space-x-2">
-        <img class="m-w" src="./icon/hacks-saviour.png" alt="" srcset="">
-        <span class="text-xl font-bold">HACKS SAVIOUR</span>
-      </div>
-
-      <!-- Desktop Menu -->
-      <div class="hidden md:flex space-x-8">
-        <a href="#home" class="hover:text-orange-500 transition">Home</a>
-        <a href="#services" class="hover:text-orange-500 transition">Services</a>
-        <a href="#contact" class="hover:text-orange-500 transition">Contact Us</a>
-      </div>
-
-      <!-- Mobile Menu Button -->
-      <button id="mobile-menu-button" class="md:hidden text-gray-600 focus:outline-none">
-        <i class="fas fa-bars text-xl"></i>
-      </button>
-
-      <!-- Book Appointment Button -->
-      <a href="#booking" class="hidden md:block bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full transition">Contact Us</a>
-    </div>
-
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden md:hidden bg-white py-4 px-4 shadow-lg">
-      <div class="flex flex-col space-y-3">
-        <a href="#home" class="hover:text-orange-500 transition">Home</a>
-        <a href="#services" class="hover:text-orange-500 transition">Services</a>
-        <a href="#reviews" class="hover:text-orange-500 transition">Reviews</a>
-        <a href="#booking" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full transition text-center">Contact Us</a>
+        <a href="#about" class="hover:text-orange-500 transition">About Us</a>
+        <a href="#services" class="hover:text-orange-500 transition">Our services</a>
+        <a href="#reviews" class="hover:text-orange-500 transition">Review</a>
+        <a href="#contact" class="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full transition text-center">Contact Us</a>
       </div>
     </div>
   </nav>
@@ -115,8 +57,8 @@
         <h1 class="text-4xl md:text-5xl font-bold mb-4">HACKS SAVIOUR</h1>
         <p class="text-lg mb-6 text-gray-600">Looking for a cybersecurity expert you can trust? HACKS SAVIOR specialists combine skill, discretion, and integrity to deliver secure and confidential solutions tailored to your needs.</p>
         <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-          <a href="#services" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full transition text-center">Contact Us</a>
-          <a href="#booking" class="border-2 border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-full transition text-center">Our services</a>
+          <a href="#contact" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full transition text-center">Contact Us</a>
+          <a href="#services" class="border-2 border-orange-500 text-orange-500 hover:bg-orange-50 px-6 py-3 rounded-full transition text-center">Our services</a>
         </div>
       </div>
       <div class="md:w-1/2 flex justify-center">
@@ -127,7 +69,7 @@
 
 
   <!-- Reviews Section -->
-  <section id="reviews" class="py-16 bg-orange-50">
+  <section id="about" class="py-16 bg-orange-50">
     <div class="container mx-auto px-4">
       <div class="text-center mb-12">
         <h2 class="text-3xl font-bold mb-4">We are your Saviour</h2>
